@@ -48,7 +48,12 @@ export const FaceVerification: React.FC<FaceVerificationProps> = ({ mode, token,
       const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'user' } });
       if (videoRef.current) {
         videoRef.current.srcObject = stream;
-        videoRef.current.play();
+        const playPromise = videoRef.current.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(err => {
+            console.warn("Camera video playback was interrupted or prevented:", err);
+          });
+        }
       }
       streamRef.current = stream;
       setStatus(mode === 'register' ? 'Look directly at the camera to register your face.' : 'Verifying your identity...');
