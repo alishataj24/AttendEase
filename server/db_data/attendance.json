@@ -1,0 +1,1072 @@
+[
+  {
+    "attendanceId": "ATT_d93c442fbbc0",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Machine Learning",
+    "date": "2026-05-10",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_14"
+  },
+  {
+    "attendanceId": "ATT_5f47530f8310",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Machine Learning",
+    "date": "2026-05-10",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_14"
+  },
+  {
+    "attendanceId": "ATT_82b03a6a487f",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Machine Learning",
+    "date": "2026-05-10",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_14"
+  },
+  {
+    "attendanceId": "ATT_5de4cd9254ec",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Internship",
+    "date": "2026-05-10",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_14"
+  },
+  {
+    "attendanceId": "ATT_e314048be6f4",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Internship",
+    "date": "2026-05-10",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_14"
+  },
+  {
+    "attendanceId": "ATT_bd27c166abbc",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Internship",
+    "date": "2026-05-10",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_14"
+  },
+  {
+    "attendanceId": "ATT_957e022ed65f",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "ECD",
+    "date": "2026-05-10",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_14"
+  },
+  {
+    "attendanceId": "ATT_8c942688dc14",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "ECD",
+    "date": "2026-05-10",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_14"
+  },
+  {
+    "attendanceId": "ATT_1ba9a716adf7",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "ECD",
+    "date": "2026-05-10",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_14"
+  },
+  {
+    "attendanceId": "ATT_70d16fd88961",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-11",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_13"
+  },
+  {
+    "attendanceId": "ATT_183ea27283ae",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-11",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_13"
+  },
+  {
+    "attendanceId": "ATT_eed355d4323d",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Project",
+    "date": "2026-05-11",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_13"
+  },
+  {
+    "attendanceId": "ATT_3fbb95afe301",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Project",
+    "date": "2026-05-11",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_13"
+  },
+  {
+    "attendanceId": "ATT_4bf5e9c2f846",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Project",
+    "date": "2026-05-11",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_13"
+  },
+  {
+    "attendanceId": "ATT_fa12a8f72087",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Mobile Application",
+    "date": "2026-05-11",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_13"
+  },
+  {
+    "attendanceId": "ATT_e40b736ccfb9",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Mobile Application",
+    "date": "2026-05-11",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_13"
+  },
+  {
+    "attendanceId": "ATT_7fd2bf9ca898",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Machine Learning",
+    "date": "2026-05-12",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_12"
+  },
+  {
+    "attendanceId": "ATT_ed7145f00efa",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Machine Learning",
+    "date": "2026-05-12",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_12"
+  },
+  {
+    "attendanceId": "ATT_8b4072e3d3f7",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Machine Learning",
+    "date": "2026-05-12",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_12"
+  },
+  {
+    "attendanceId": "ATT_6bc1b0f64f7b",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Internship",
+    "date": "2026-05-12",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_12"
+  },
+  {
+    "attendanceId": "ATT_b54dec322876",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Internship",
+    "date": "2026-05-12",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_12"
+  },
+  {
+    "attendanceId": "ATT_62e51848f5d3",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Internship",
+    "date": "2026-05-12",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_12"
+  },
+  {
+    "attendanceId": "ATT_1b39c7a5dab4",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "ECD",
+    "date": "2026-05-12",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_12"
+  },
+  {
+    "attendanceId": "ATT_82d0935507be",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "ECD",
+    "date": "2026-05-12",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_12"
+  },
+  {
+    "attendanceId": "ATT_e281099ef0a9",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-13",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_11"
+  },
+  {
+    "attendanceId": "ATT_81c14469dc66",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-13",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_11"
+  },
+  {
+    "attendanceId": "ATT_6ac833f18fba",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Project",
+    "date": "2026-05-13",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_11"
+  },
+  {
+    "attendanceId": "ATT_3f8f2a0d91af",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Project",
+    "date": "2026-05-13",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_11"
+  },
+  {
+    "attendanceId": "ATT_3a155cf288b3",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Mobile Application",
+    "date": "2026-05-13",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_11"
+  },
+  {
+    "attendanceId": "ATT_4a00fad795b0",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Mobile Application",
+    "date": "2026-05-13",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_11"
+  },
+  {
+    "attendanceId": "ATT_a8c19b54ff01",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Machine Learning",
+    "date": "2026-05-14",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_10"
+  },
+  {
+    "attendanceId": "ATT_12074f9360aa",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Machine Learning",
+    "date": "2026-05-14",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_10"
+  },
+  {
+    "attendanceId": "ATT_84058c9e82fe",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Internship",
+    "date": "2026-05-14",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_10"
+  },
+  {
+    "attendanceId": "ATT_1039244e4ef0",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Internship",
+    "date": "2026-05-14",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_10"
+  },
+  {
+    "attendanceId": "ATT_644b6254c647",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Internship",
+    "date": "2026-05-14",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_10"
+  },
+  {
+    "attendanceId": "ATT_11359ad8e536",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "ECD",
+    "date": "2026-05-14",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_10"
+  },
+  {
+    "attendanceId": "ATT_57312501b50f",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "ECD",
+    "date": "2026-05-14",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_10"
+  },
+  {
+    "attendanceId": "ATT_4b79b72e0e17",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-15",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_9"
+  },
+  {
+    "attendanceId": "ATT_230e5772fbf2",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-15",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_9"
+  },
+  {
+    "attendanceId": "ATT_0476fe69b596",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-15",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_9"
+  },
+  {
+    "attendanceId": "ATT_aa475b0c7c34",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Project",
+    "date": "2026-05-15",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_9"
+  },
+  {
+    "attendanceId": "ATT_9e3f918cf3d6",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Project",
+    "date": "2026-05-15",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_9"
+  },
+  {
+    "attendanceId": "ATT_ebdd5da17e0b",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Mobile Application",
+    "date": "2026-05-15",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_9"
+  },
+  {
+    "attendanceId": "ATT_fb1fd8c9dcbc",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Mobile Application",
+    "date": "2026-05-15",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_9"
+  },
+  {
+    "attendanceId": "ATT_4195c0a5e0df",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Mobile Application",
+    "date": "2026-05-15",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_9"
+  },
+  {
+    "attendanceId": "ATT_754df0ca4bd9",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Machine Learning",
+    "date": "2026-05-16",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_8"
+  },
+  {
+    "attendanceId": "ATT_c465e15da751",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Machine Learning",
+    "date": "2026-05-16",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_8"
+  },
+  {
+    "attendanceId": "ATT_4770aa1dc206",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Machine Learning",
+    "date": "2026-05-16",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_8"
+  },
+  {
+    "attendanceId": "ATT_62a5d95090c4",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Internship",
+    "date": "2026-05-16",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_8"
+  },
+  {
+    "attendanceId": "ATT_8d21e50683dd",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Internship",
+    "date": "2026-05-16",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_8"
+  },
+  {
+    "attendanceId": "ATT_8565f41c5a19",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "ECD",
+    "date": "2026-05-16",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_8"
+  },
+  {
+    "attendanceId": "ATT_bf44d2dc91ef",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "ECD",
+    "date": "2026-05-16",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_8"
+  },
+  {
+    "attendanceId": "ATT_ade906e0fa11",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "ECD",
+    "date": "2026-05-16",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_8"
+  },
+  {
+    "attendanceId": "ATT_1977d7b348f6",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-17",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_7"
+  },
+  {
+    "attendanceId": "ATT_1949498b23c8",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-17",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_7"
+  },
+  {
+    "attendanceId": "ATT_314cf8e7b83e",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-17",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_7"
+  },
+  {
+    "attendanceId": "ATT_8ef932221e65",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Project",
+    "date": "2026-05-17",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_7"
+  },
+  {
+    "attendanceId": "ATT_e5059cd51a28",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Project",
+    "date": "2026-05-17",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_7"
+  },
+  {
+    "attendanceId": "ATT_ab34bb5214bf",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Mobile Application",
+    "date": "2026-05-17",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_7"
+  },
+  {
+    "attendanceId": "ATT_59c40b7fc4fd",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Mobile Application",
+    "date": "2026-05-17",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_7"
+  },
+  {
+    "attendanceId": "ATT_b6f9831d55ba",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Mobile Application",
+    "date": "2026-05-17",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_7"
+  },
+  {
+    "attendanceId": "ATT_cc0bd56fa9ad",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Machine Learning",
+    "date": "2026-05-18",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_6"
+  },
+  {
+    "attendanceId": "ATT_5edd7a2b5bfd",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Machine Learning",
+    "date": "2026-05-18",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_6"
+  },
+  {
+    "attendanceId": "ATT_acb5ddd85589",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Machine Learning",
+    "date": "2026-05-18",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_6"
+  },
+  {
+    "attendanceId": "ATT_0e337abc74d3",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Internship",
+    "date": "2026-05-18",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_6"
+  },
+  {
+    "attendanceId": "ATT_105f1f084177",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Internship",
+    "date": "2026-05-18",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_6"
+  },
+  {
+    "attendanceId": "ATT_61fad549a5d6",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "ECD",
+    "date": "2026-05-18",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_6"
+  },
+  {
+    "attendanceId": "ATT_142fed8166bf",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-19",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_5"
+  },
+  {
+    "attendanceId": "ATT_9681c845cb28",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-19",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_5"
+  },
+  {
+    "attendanceId": "ATT_2978ff8069c5",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-19",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_5"
+  },
+  {
+    "attendanceId": "ATT_bee73d489959",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Project",
+    "date": "2026-05-19",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_5"
+  },
+  {
+    "attendanceId": "ATT_a3d1cb67dac6",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Project",
+    "date": "2026-05-19",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_5"
+  },
+  {
+    "attendanceId": "ATT_2b72e222b744",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Project",
+    "date": "2026-05-19",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_5"
+  },
+  {
+    "attendanceId": "ATT_8f93f3d3a9e5",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Mobile Application",
+    "date": "2026-05-19",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_5"
+  },
+  {
+    "attendanceId": "ATT_2930bde110d1",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Mobile Application",
+    "date": "2026-05-19",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_5"
+  },
+  {
+    "attendanceId": "ATT_8f5e410274b8",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Mobile Application",
+    "date": "2026-05-19",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_5"
+  },
+  {
+    "attendanceId": "ATT_44b5a45c72e8",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Machine Learning",
+    "date": "2026-05-20",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_4"
+  },
+  {
+    "attendanceId": "ATT_86e8677c5b8b",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Machine Learning",
+    "date": "2026-05-20",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_4"
+  },
+  {
+    "attendanceId": "ATT_2bbe0e748c27",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Internship",
+    "date": "2026-05-20",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_4"
+  },
+  {
+    "attendanceId": "ATT_ab61f003306b",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Internship",
+    "date": "2026-05-20",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_4"
+  },
+  {
+    "attendanceId": "ATT_16c9a45f803a",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Internship",
+    "date": "2026-05-20",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_4"
+  },
+  {
+    "attendanceId": "ATT_1652b9bd418e",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "ECD",
+    "date": "2026-05-20",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_4"
+  },
+  {
+    "attendanceId": "ATT_c68528238a74",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "ECD",
+    "date": "2026-05-20",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_4"
+  },
+  {
+    "attendanceId": "ATT_bbc496cbf823",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-21",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_3"
+  },
+  {
+    "attendanceId": "ATT_43629cff6a1f",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-21",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_3"
+  },
+  {
+    "attendanceId": "ATT_0a6d1f66858f",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Project",
+    "date": "2026-05-21",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_3"
+  },
+  {
+    "attendanceId": "ATT_c74dd587a176",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Project",
+    "date": "2026-05-21",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_3"
+  },
+  {
+    "attendanceId": "ATT_a0a174d88b17",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Mobile Application",
+    "date": "2026-05-21",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_3"
+  },
+  {
+    "attendanceId": "ATT_ac95fe5cb9c9",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Mobile Application",
+    "date": "2026-05-21",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_3"
+  },
+  {
+    "attendanceId": "ATT_80468add28ad",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Mobile Application",
+    "date": "2026-05-21",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_3"
+  },
+  {
+    "attendanceId": "ATT_7ae620ac401f",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Machine Learning",
+    "date": "2026-05-22",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_2"
+  },
+  {
+    "attendanceId": "ATT_7e56a71d1603",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Machine Learning",
+    "date": "2026-05-22",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_2"
+  },
+  {
+    "attendanceId": "ATT_51d50cde604a",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Internship",
+    "date": "2026-05-22",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_2"
+  },
+  {
+    "attendanceId": "ATT_ea642f109ba8",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Internship",
+    "date": "2026-05-22",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_2"
+  },
+  {
+    "attendanceId": "ATT_a018995842c0",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Internship",
+    "date": "2026-05-22",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_2"
+  },
+  {
+    "attendanceId": "ATT_23a921d3b419",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "ECD",
+    "date": "2026-05-22",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_2"
+  },
+  {
+    "attendanceId": "ATT_c38c69c1504b",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "ECD",
+    "date": "2026-05-22",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_2"
+  },
+  {
+    "attendanceId": "ATT_33d606f6a4f2",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "ECD",
+    "date": "2026-05-22",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_2"
+  },
+  {
+    "attendanceId": "ATT_4c8a00315f58",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-23",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_1"
+  },
+  {
+    "attendanceId": "ATT_c8dc0509a4e6",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-23",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_1"
+  },
+  {
+    "attendanceId": "ATT_365e5bad39f9",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Artificial Intelligence",
+    "date": "2026-05-23",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_1"
+  },
+  {
+    "attendanceId": "ATT_9a1cdd1dc472",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Project",
+    "date": "2026-05-23",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_1"
+  },
+  {
+    "attendanceId": "ATT_00aba96cf434",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Project",
+    "date": "2026-05-23",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_1"
+  },
+  {
+    "attendanceId": "ATT_0606028c8e24",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Project",
+    "date": "2026-05-23",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_1"
+  },
+  {
+    "attendanceId": "ATT_ae360b7742df",
+    "studentId": "STU001",
+    "studentName": "Alice Johnson",
+    "subject": "Mobile Application",
+    "date": "2026-05-23",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_1"
+  },
+  {
+    "attendanceId": "ATT_757ddd1e8aeb",
+    "studentId": "STU002",
+    "studentName": "Bob Smith",
+    "subject": "Mobile Application",
+    "date": "2026-05-23",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_1"
+  },
+  {
+    "attendanceId": "ATT_71572a0ac9a9",
+    "studentId": "STU003",
+    "studentName": "Charlie Brown",
+    "subject": "Mobile Application",
+    "date": "2026-05-23",
+    "time": "10:15:00",
+    "status": "Present",
+    "sessionId": "SES_SEED_1"
+  }
+]

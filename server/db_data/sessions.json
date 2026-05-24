@@ -1,0 +1,29 @@
+[
+  {
+    "sessionId": "SES_dd125bc139a06e8e",
+    "facultyId": "prof.miller@gmail.com",
+    "subject": "Machine Learning",
+    "token": "3496deb8c61b96fc8a5b0e6f4949ce3b",
+    "isActive": true,
+    "startTime": "2026-05-24T14:23:13.081Z",
+    "expiryTime": "2026-05-24T14:23:35.106Z"
+  },
+  {
+    "sessionId": "SES_909f2fbbe5f60eba",
+    "facultyId": "alis@gmail.com",
+    "subject": "Machine Learning",
+    "token": "1a3f171e8b3faf7d1655023f11cd5cc8",
+    "isActive": false,
+    "startTime": "2026-05-24T16:47:49.477Z",
+    "expiryTime": "2026-05-24T16:48:01.477Z"
+  },
+  {
+    "sessionId": "SES_26d357baf0eb08cc",
+    "facultyId": "alis@gmail.com",
+    "subject": "Project",
+    "token": "730002436e73547523eb30ed7fc26872",
+    "isActive": true,
+    "startTime": "2026-05-24T16:53:46.908Z",
+    "expiryTime": "2026-05-24T16:56:29.279Z"
+  }
+]
