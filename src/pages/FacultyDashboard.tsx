@@ -8,7 +8,7 @@ export const FacultyDashboard: React.FC = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:5001/api/attendance/faculty/dashboard', {
+    fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/attendance/faculty/dashboard`, {
       headers: { 'Authorization': `Bearer ${token}` }
     })
     .then(res => res.json())

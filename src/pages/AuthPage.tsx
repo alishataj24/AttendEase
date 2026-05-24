@@ -36,7 +36,7 @@ export const AuthPage: React.FC = () => {
     setError('');
     setLoading(true);
     try {
-      const res = await fetch('http://localhost:5001/api/auth/student/signup', {
+      const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/auth/student/signup`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -63,7 +63,7 @@ export const AuthPage: React.FC = () => {
     setError('');
     setLoading(true);
     try {
-      const res = await fetch('http://localhost:5001/api/auth/student/login', {
+      const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/auth/student/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: stuEmail })
@@ -92,7 +92,7 @@ export const AuthPage: React.FC = () => {
     setError('');
     setLoading(true);
     try {
-      const res = await fetch('http://localhost:5001/api/auth/faculty/signup', {
+      const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/auth/faculty/signup`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name: facName, email: facEmail, department: facDept })
@@ -114,7 +114,7 @@ export const AuthPage: React.FC = () => {
     setError('');
     setLoading(true);
     try {
-      const res = await fetch('http://localhost:5001/api/auth/faculty/login', {
+      const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/auth/faculty/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: facEmail })

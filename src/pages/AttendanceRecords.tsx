@@ -11,7 +11,7 @@ export const AttendanceRecords: React.FC = () => {
   const [totalPages, setTotalPages] = useState(1);
 
   const fetchRecords = () => {
-    let url = `http://localhost:5001/api/attendance/records?page=${page}&limit=15`;
+    let url = `${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/attendance/records?page=${page}&limit=15`;
     if (search) url += `&search=${encodeURIComponent(search)}`;
     if (subject) url += `&subject=${encodeURIComponent(subject)}`;
 

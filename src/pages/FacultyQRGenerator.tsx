@@ -15,7 +15,7 @@ export const FacultyQRGenerator: React.FC = () => {
 
   // Check for active session on load
   useEffect(() => {
-    fetch('http://localhost:5001/api/session/active', {
+    fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/session/active`, {
       headers: { 'Authorization': `Bearer ${token}` }
     })
     .then(res => res.json())
@@ -57,7 +57,7 @@ export const FacultyQRGenerator: React.FC = () => {
       clearInterval(rotationTimerRef.current);
       rotationTimerRef.current = setInterval(async () => {
         try {
-          const res = await fetch(`http://localhost:5001/api/session/${session.sessionId}/rotate`, {
+          const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/session/${session.sessionId}/rotate`, {
             method: 'POST',
             headers: { 'Authorization': `Bearer ${token}` }
           });
@@ -78,7 +78,7 @@ export const FacultyQRGenerator: React.FC = () => {
 
   const startSession = async () => {
     try {
-      const res = await fetch('http://localhost:5001/api/session/start', {
+      const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/session/start`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
         body: JSON.stringify({ subject: selectedSubject })
@@ -95,7 +95,7 @@ export const FacultyQRGenerator: React.FC = () => {
   const endSession = async () => {
     if (!session) return;
     try {
-      await fetch(`http://localhost:5001/api/session/${session.sessionId}/end`, {
+      await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/session/${session.sessionId}/end`, {
         method: 'POST',
         headers: { 'Authorization': `Bearer ${token}` }
       });
