@@ -3,6 +3,7 @@ import jsQR from 'jsqr';
 import { useAuth } from '../contexts/AuthContext';
 import { Camera, StopCircle, CheckCircle, XCircle } from 'lucide-react';
 import { addToast } from '../components/Toast';
+import { API_BASE_URL } from '../config';
 
 export const StudentScanner: React.FC = () => {
   const { token } = useAuth();
@@ -72,7 +73,7 @@ export const StudentScanner: React.FC = () => {
       const payload = JSON.parse(dataStr);
       if (!payload.sessionId || !payload.token) throw new Error("Invalid QR code format");
 
-      const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/attendance/scan`, {
+      const res = await fetch(`${API_BASE_URL}/api/attendance/scan`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
         body: JSON.stringify({ sessionId: payload.sessionId, token: payload.token })
@@ -93,7 +94,7 @@ export const StudentScanner: React.FC = () => {
   // Mock function for demo purposes if camera fails
   const mockScan = async () => {
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/sessions/latest-active`, {
+      const res = await fetch(`${API_BASE_URL}/api/sessions/latest-active`, {
         headers: {
           'Authorization': `Bearer ${token}`
         }

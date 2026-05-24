@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { Fingerprint, User, Mail, BookOpen, GraduationCap, Building2, Hash, ArrowRight, UserPlus, LogIn } from 'lucide-react';
 import { FaceVerification } from '../components/FaceVerification';
+import { API_BASE_URL } from '../config';
 
 type PortalTab = 'student' | 'faculty';
 type AuthMode = 'login' | 'signup';
@@ -36,7 +37,7 @@ export const AuthPage: React.FC = () => {
     setError('');
     setLoading(true);
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/auth/student/signup`, {
+      const res = await fetch(`${API_BASE_URL}/api/auth/student/signup`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -63,7 +64,7 @@ export const AuthPage: React.FC = () => {
     setError('');
     setLoading(true);
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/auth/student/login`, {
+      const res = await fetch(`${API_BASE_URL}/api/auth/student/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: stuEmail })
@@ -92,7 +93,7 @@ export const AuthPage: React.FC = () => {
     setError('');
     setLoading(true);
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/auth/faculty/signup`, {
+      const res = await fetch(`${API_BASE_URL}/api/auth/faculty/signup`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name: facName, email: facEmail, department: facDept })
@@ -114,7 +115,7 @@ export const AuthPage: React.FC = () => {
     setError('');
     setLoading(true);
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/auth/faculty/login`, {
+      const res = await fetch(`${API_BASE_URL}/api/auth/faculty/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: facEmail })

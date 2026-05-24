@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { BookOpen, CalendarCheck, CalendarX, TrendingUp, AlertTriangle } from 'lucide-react';
+import { API_BASE_URL } from '../config';
 
 export const StudentDashboard: React.FC = () => {
   const { user, token } = useAuth();
@@ -8,7 +9,7 @@ export const StudentDashboard: React.FC = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/attendance/student/dashboard`, {
+    fetch(`${API_BASE_URL}/api/attendance/student/dashboard`, {
       headers: { 'Authorization': `Bearer ${token}` }
     })
     .then(res => res.json())

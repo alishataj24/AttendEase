@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as faceapi from 'face-api.js';
 import { CheckCircle, Loader2, ShieldAlert } from 'lucide-react';
+import { API_BASE_URL } from '../config';
 
 interface FaceVerificationProps {
   mode: 'register' | 'verify';
@@ -98,7 +99,7 @@ export const FaceVerification: React.FC<FaceVerificationProps> = ({ mode, token,
   const handleRegistration = async (descriptor: Float32Array) => {
     setStatus('Registering face...');
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/auth/student/register-face`, {
+      const res = await fetch(`${API_BASE_URL}/api/auth/student/register-face`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
         body: JSON.stringify({ descriptor: Array.from(descriptor) })
@@ -118,7 +119,7 @@ export const FaceVerification: React.FC<FaceVerificationProps> = ({ mode, token,
     setStatus('Analyzing face...');
     try {
       // Fetch stored descriptor
-      const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/auth/student/face-descriptor`, {
+      const res = await fetch(`${API_BASE_URL}/api/auth/student/face-descriptor`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       if (!res.ok) throw new Error('Could not fetch stored face descriptor.');

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { Search, Download, FileSpreadsheet } from 'lucide-react';
+import { API_BASE_URL } from '../config';
 
 export const AttendanceRecords: React.FC = () => {
   const { user, token } = useAuth();
@@ -11,7 +12,7 @@ export const AttendanceRecords: React.FC = () => {
   const [totalPages, setTotalPages] = useState(1);
 
   const fetchRecords = () => {
-    let url = `${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/attendance/records?page=${page}&limit=15`;
+    let url = `${API_BASE_URL}/api/attendance/records?page=${page}&limit=15`;
     if (search) url += `&search=${encodeURIComponent(search)}`;
     if (subject) url += `&subject=${encodeURIComponent(subject)}`;
 
