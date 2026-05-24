@@ -104,9 +104,9 @@ export const StudentScanner: React.FC = () => {
       
       const sessionData = JSON.stringify({
         sessionId: data.session._id,
-        timestamp: Date.now()
+        token: "mock-token-" + Date.now()
       });
-      handleScan(sessionData);
+      handleScanResult(sessionData);
     } catch (e: any) {
       setFeedback({ type: 'error', msg: e.message || 'Mock scan failed.' });
     }
