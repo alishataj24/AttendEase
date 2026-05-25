@@ -33,9 +33,10 @@ export const AttendanceRecords: React.FC = () => {
   // Connect WebSocket to listen for live scans in current session
   useEffect(() => {
     if (!user) return;
+    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
     const wsUrl = API_BASE_URL.startsWith('http')
       ? API_BASE_URL.replace(/^http/, 'ws')
-      : `ws://${window.location.hostname}:5001`;
+      : `${protocol}//${window.location.host}`;
     const ws = new WebSocket(wsUrl);
     ws.onopen = () => {
       ws.send(JSON.stringify({ type: 'auth', userId: user.id }));
